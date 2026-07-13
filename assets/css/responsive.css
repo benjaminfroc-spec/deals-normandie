@@ -1,0 +1,45 @@
+@media (max-width: 900px) {
+      .nav-links {
+        display: none;
+      }
+
+      .hero {
+        grid-template-columns: 1fr;
+        background:
+          linear-gradient(180deg, rgba(255,255,255,0.96) 0%, rgba(255,255,255,0.84) 48%, rgba(255,255,255,0.55) 100%),
+          url("assets/img/hero2.jpg");
+        background-size: cover;
+        background-position: center;
+      }
+
+      .features,
+      .deal-grid,
+      .about {
+        grid-template-columns: 1fr;
+      }
+
+      .feature {
+        border-right: 0;
+        border-bottom: 1px solid var(--border);
+      }
+
+      form {
+        grid-template-columns: 1fr;
+      }
+
+      .trust-row {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .floating-card {
+        position: static;
+        width: auto;
+        margin: -80px 20px 24px;
+        position: relative;
+      }
+
+      .footer-grid {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
