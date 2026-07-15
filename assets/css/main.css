@@ -69,6 +69,30 @@
       width: 100%;
     }
 
+    .hero-proof{
+
+    display:flex;
+    flex-wrap:wrap;
+    gap:18px;
+
+    margin:28px 0;
+
+    color:var(--text);
+
+    font-size:.95rem;
+
+    font-weight:500;
+
+}
+
+.hero-proof span{
+
+    display:flex;
+    align-items:center;
+    gap:6px;
+
+}
+
     .logo img {
     height: 96px;
     width: auto;
